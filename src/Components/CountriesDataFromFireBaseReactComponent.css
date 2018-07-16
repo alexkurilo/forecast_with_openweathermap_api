@@ -1,0 +1,6 @@
+.CountriesList{
+    outline: 1px solid #F5F5F5;
+    width: 35%;
+    overflow-y: scroll;
+    height: 630px;
+}

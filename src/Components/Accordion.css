@@ -1,0 +1,42 @@
+button.accordion {
+    /*background-color: #FFD700;*/ /*day*/
+    /*background-color: #0000CD;*/ /*night*/
+    /*color: #444;*/
+    background-color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+button.ForecastButtonDay{
+    background-color: #FFD700; /*day*/
+    color: #0000CD;
+}
+
+button.ForecastButtonNight{
+    background-color: #0000CD; /*day*/
+    color: #FFD700;
+}
+
+
+button.accordion.active,
+button.accordion:hover{
+    /*background-color: #FFFF00;*//*night*/
+    /*background-color: #0000FF;*//*night*/
+    opacity: 0.5;
+}
+
+div.panel{
+    padding: 0 18px;
+    display: none;
+    margin-top: 0;
+}
+
+div.panel.show{
+    display: block;
+}

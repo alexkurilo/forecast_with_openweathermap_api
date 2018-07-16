@@ -1,0 +1,171 @@
+.ForecastCardArr{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    /*max-height: 635px;*/
+}
+
+.ForecastCard:hover{
+    background-color: #E6E6FA;
+}
+
+.ForecastCardComponent{
+    padding: 10px;
+
+}
+
+.ForecastCardNight{
+    background-image: url(https://png.pngtree.com/element_origin_min_pic/16/11/23/3291b506a252f7754fdcbff4a79853cd.jpg);
+    color: #F5F5DC;
+}
+
+.ForecastCardDay{
+    background-image: url(https://previews.123rf.com/images/ravennka/ravennka1708/ravennka170800018/84468744-illustration-of-sunny-day-with-blue-sky-nice-green-meadow-or-pasture-with-enough-copyspace-portrait-.jpg);
+}
+
+.ForecastCard,
+.ForecastCardNight,
+.ForecastCardDay{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F8F8FF;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    flex-direction: column;
+    background-color: #F5F5F5;
+
+}
+
+.HeaderCard{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.DescriptionCard{
+    display: flex;
+    justify-content: center;
+}
+
+.iconWeather{
+    height: 100px;
+    width: 100px;
+}
+
+.cityCard-header-closeButton{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cityCard-header-closeButton:hover,
+.iconWeather:hover{
+    transform: scale(1.2);
+}
+
+@keyframes rotateCloseButton{
+    0%,100% {
+        transform:  rotate(0deg) scale(1.1);
+    }
+    50% {
+        transform: rotate(180deg) scale(0.9);
+    }
+}
+
+.cityCard-header-closeButton:hover{
+    animation: rotateCloseButton 3s infinite ease-in-out;
+    transform: scale(1.15);
+}
+.cityCard-header-closeButton{
+    width: 20%;
+}
+.HeaderCard h3{
+    /*margin: 10px 0 0 0;*/
+    width: 40%;
+    padding-left: 25px;
+    /*outline: 1px solid red;*/
+}
+
+.HeaderCardDescription{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    /*outline: 1px solid red;*/
+}
+
+.HeaderCardDescription h4{
+    margin: 0;
+}
+
+.HeaderCardDescription .iconWeather{
+    width: 50px;
+    height: 50px;
+}
+
+
+.HeaderCard .cityCard-header-closeButton{
+    text-align: left;
+    width: 20%;
+    /*outline: 1px solid red;*/
+}
+
+
+.Card table{
+    margin: 10px auto;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+
+}
+
+.DescriptionCard h2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.MainCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+td {
+    padding: 3px 10px;
+}
+td:hover{
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+tr:nth-child(2n) {
+    background: #f0f0f0; /* Цвет фона */
+    color: black;
+    opacity: 0.75;
+}
+
+tr:nth-child(2n+1) {
+    background: #836FFF; /* Цвет фона */
+    opacity: 0.75;
+    color: black;
+}
+
+tr:nth-child(1) {
+
+}
+
+.DescriptionHeader{
+    text-align: center;
+}
+
+.Card{
+
+}
+

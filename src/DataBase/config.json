@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "forecast-with-openweathermap",
+  "private_key_id": "9b296c336f28d121ccc1aeffb3a47bd116d876dc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUXP1FWEgAaT/Z\ncmaDYjcRuvGR9yO58f9P50d/hafJQ5hqZjalzr+X5AHi8yqwWCUMy7BDQcL4woEp\n828s/3A+yupTyoyrwQF++fYZ9Xv2XAFsnDWv9KpCKxWSLgfikMfm651fHA+EJn6I\nJt5YgTxdgwsV3Fo/orint/RU1tLTNPcIII6EyvHXIaBv9swE4vs2VWjJuMP7Xnkp\n6Aaap6RmW5KSgvLhqY7z2TaVujBVwsCu1EXEVK+xO+0o9FGkXcDT10dqgnX8SJSF\nn0QssK2wUHoMmpxEtyb1885vLoQcc+mt2nxE7jCP9Nbknzi8HbW9xRvv05xFQtvv\nllU/aFWLAgMBAAECggEAXenjraONb/UbofeoIykvjl08kJ8ZQxWkoXr30QrT+Ts1\n77PVLf1hGHRiazG7arIIbIC1qgCujyFBSsKXo3AxfOtytmyISjp4BWXYcoFv+TKW\nBKiOS4qpMsrn5rYJkaYSaWpANbvslrYJVf/Oa5h3kCkwIVJJ7QNyouVEnbJFGNZw\niTnrz3oUT4zt1ae0HIA93tz8u2RDgmviUM3kJngzkQj31Vaik9bobmhQmiPVlRI9\n2sOljZ3RZabUTTUUo9DuYilwfg6AFtHooADQ74bP2hwjc2+PIRHwKiTnX2+nWfio\n8snse7Q4CpI3AaPlpAaYzSw2/i0RkgiUWIXLQE1mwQKBgQD0F3X+HishtQI6mYqg\nJZJP5A6WDvmNkBfeo8GPv0wONgK2xzYJ4sup1mFo7/I+rXErXLPhMOztrnLmriFe\nvME5lBZmAcZXi9MBuDcLSqLKSxSfsz3S9F23XybSLGSgT0/HSmsefY15ozxmhpxi\nDJjHm6K9isUbQ/fff+gkh4X2wQKBgQDeuUMd9mctoOmiAtapv5fOZoA5GGA5aWm5\nwWv1KPOqxrtLM3VdmoHfC0rF5Ia1/xO/xZF9u+oIz7c7WC6vOBDABHJGZ5vUMiAa\nKudwVmPxq41/3A8Azjah01dHHepW5cWJ9rGx2FAo1NfDocqUTFCOlLSzwu2M8RwU\ndx3Tvf7LSwKBgEMhUKoa0fHrPjmvkJiKvLqMFhbe93MfdfEdSFaoXdpqsERkdVAy\nt6B1/URG+XCTctRiInaEZiTYHXGj4jmT3/Bd8esMAeiB4/5NE5ZfaHYKQBnLye0C\nl+Oen6ad3u7X4TEGHn+8N/SEGFB6JPgyTrJW82L9j0f4YWtuWgHx474BAoGAFlFM\nF2mEZz8TiidsqS/In2cH/DCkG7yjWni2P6et2vP0+pEadpmv39C62l+O3BfGO9Yp\nQQceaWme+7RXYTll/Ee1x7ZEGBw5uUWJUWlmtGWzVReQ7Uy8jrSlrzuhKrn1dGCi\n56Y8Sgsh37mLmhaXj+H4xXaH5TKX1Lkm5PvJ10cCgYEA7+3ZP5MGiDu8PQJPaZED\nFdyDpDrC0vsxzNpUJ6pK2R99aha6S5fOr8mtDCqK4jDae/gTdOhveNDsaPGsep7z\nDUn3elAjGgnJYfVePlIQ6sfkQJSzmlwVLtmtjA5YxUJMSFks0+wE8862kjfOp0Ju\nDfseZR/rJAmia6XOl+LjlPI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-81pm0@forecast-with-openweathermap.iam.gserviceaccount.com",
+  "client_id": "109694607542688236150",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-81pm0%40forecast-with-openweathermap.iam.gserviceaccount.com"
+}
+
+

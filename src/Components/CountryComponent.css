@@ -1,0 +1,12 @@
+.CountryItem{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.CountryItem:hover{
+    background-color: #F8F8FF;
+    outline: 1px solid #DCDCDC;
+    transform: matrix(1.15, 0, 0, 1.15, 5, 0);
+    width: 80%;
+}

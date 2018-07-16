@@ -1,0 +1,176 @@
+.ForecastDetailComponent{
+
+}
+
+.Hidden{
+    visibility: hidden;
+}
+
+.Visible{
+    visibility: visible;
+}
+
+.ForecastDetailComponent{
+
+}
+
+.DetailLink{
+    display: flex;
+    height: 55px;
+    width: 55px;
+}
+
+.BackLink{
+    margin: 20px 0 0 20px;
+}
+
+.BackLink:hover{
+    transform: scale(1.3);
+}
+
+.DetailForecast{
+    /*margin: 0 auto;*/
+}
+
+.DetailForecastHeader{
+    /*border: 1px solid red;*/
+    padding-bottom: 10px;
+}
+
+.DetailForecastHeader div{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.DetailForecastInformation{
+   /* border: 1px solid red;*/
+    display: flex;
+}
+
+.DetailForecastCard{
+    /*border: 1px solid red;*/
+    width: 35%;
+
+}
+
+.DetailForecastCard td:hover{
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+.MiniDetailCardComponent tr:nth-child(2n),
+.DetailForecastCard tr:nth-child(2n) {
+    color: black;
+    opacity: 0.75;
+    background-color: #FFFFF0;
+}
+
+.MiniDetailCardComponent tr:nth-child(2n+1),
+.DetailForecastCard tr:nth-child(2n+1) {
+    opacity: 0.75;
+    color: black;
+    background-color: #BEBEBE;
+}
+
+.DetailForecastCard div{
+    width: 100%;
+}
+
+.DetailInformation{
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+}
+
+.charWindow{
+    width: 75%;
+    padding: 0 5% 0 1%;
+    margin: 0 auto;
+    float: bottom;
+}
+
+.MiniForecastCardArr{
+    display: flex;
+    font-size: 12px;
+    height: 220px;
+    /*outline: 1px solid red;*/
+    width: 100%;
+}
+
+.MiniSimpleCardComponent{
+    position: absolute;
+    text-align: center;
+    margin: 2px ;
+
+}
+
+.MiniDetailCardComponent:hover,
+.MiniSimpleCardComponent:hover{
+    cursor: pointer;
+    /*transform: matrix(1.1, 0, 0, 1.1, 0, 0);*/
+}
+
+.MiniDetailCardComponent .Hidden,
+.MiniSimpleCardComponent .Hidden{
+    visibility: hidden;
+    /*height: 1px;
+    width: 1px;*/
+}
+
+.MiniDetailCardComponent{
+    position: absolute ;
+    text-align: center;
+    /*margin: 2px ;*/
+    z-index: 1;
+    bottom: auto;
+    font-size: 14px;
+}
+
+.MiniDetailCardComponent h3{
+    margin: 10px 0 0 0;
+}
+
+.BottomMiniCard{
+   /* margin-bottom: 20px;*/
+}
+
+.DayCard,
+.NightCard{
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 7px rgba(0,0,0,0.5);
+}
+
+.DayCard{
+    background-color: #FFFFF0;
+}
+
+.NightCard{
+    background-color: #BEBEBE;
+}
+
+.Arrows{
+    text-align: center;
+    /*position: absolute ;*/
+    bottom: 0;
+}
+
+.Arrows img{
+    margin: 20px 100px;
+}
+
+.Arrows img:hover{
+    cursor: pointer
+}
+
+.Arrows a{
+    /*position: fixed;
+    z-index: 2;*/
+}
+
+
+.DescriptionCard h2{
+    padding: 0 0 0 15px ;
+}
